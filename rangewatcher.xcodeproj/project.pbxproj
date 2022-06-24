@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24CCAF9E2865BC0300AADD37 /* ranger WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 24CCAF9D2865BC0300AADD37 /* ranger WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		24CCAF9E2865BC0300AADD37 /* rangewatcher WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 24CCAF9D2865BC0300AADD37 /* rangewatcher WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		24CCAFA32865BC0600AADD37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CCAFA22865BC0600AADD37 /* Assets.xcassets */; };
-		24CCAFA92865BC0600AADD37 /* ranger WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 24CCAFA82865BC0600AADD37 /* ranger WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		24CCAFA92865BC0600AADD37 /* rangewatcher WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 24CCAFA82865BC0600AADD37 /* rangewatcher WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		24CCAFAE2865BC0600AADD37 /* rangerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CCAFAD2865BC0600AADD37 /* rangerApp.swift */; };
 		24CCAFB02865BC0600AADD37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CCAFAF2865BC0600AADD37 /* ContentView.swift */; };
 		24CCAFB22865BC0600AADD37 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CCAFB12865BC0600AADD37 /* NotificationController.swift */; };
@@ -20,6 +20,7 @@
 		24CCAFC72865BC0700AADD37 /* rangerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CCAFC62865BC0700AADD37 /* rangerTests.swift */; };
 		24CCAFD12865BC0700AADD37 /* rangerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CCAFD02865BC0700AADD37 /* rangerUITests.swift */; };
 		24CCAFD32865BC0700AADD37 /* rangerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CCAFD22865BC0700AADD37 /* rangerUITestsLaunchTests.swift */; };
+		24CCB0652865F1F000AADD37 /* RangerExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CCB0642865F1F000AADD37 /* RangerExtensionDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +61,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				24CCAFA92865BC0600AADD37 /* ranger WatchKit Extension.appex in Embed App Extensions */,
+				24CCAFA92865BC0600AADD37 /* rangewatcher WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,7 +72,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				24CCAF9E2865BC0300AADD37 /* ranger WatchKit App.app in Embed Watch Content */,
+				24CCAF9E2865BC0300AADD37 /* rangewatcher WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,10 +80,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		24CCAF992865BC0300AADD37 /* ranger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ranger.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		24CCAF9D2865BC0300AADD37 /* ranger WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ranger WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CCAF992865BC0300AADD37 /* rangewatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rangewatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CCAF9D2865BC0300AADD37 /* rangewatcher WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rangewatcher WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CCAFA22865BC0600AADD37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		24CCAFA82865BC0600AADD37 /* ranger WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ranger WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CCAFA82865BC0600AADD37 /* rangewatcher WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "rangewatcher WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CCAFAD2865BC0600AADD37 /* rangerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rangerApp.swift; sourceTree = "<group>"; };
 		24CCAFAF2865BC0600AADD37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		24CCAFB12865BC0600AADD37 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
@@ -92,11 +93,12 @@
 		24CCAFBA2865BC0700AADD37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		24CCAFBC2865BC0700AADD37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24CCAFBD2865BC0700AADD37 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		24CCAFC22865BC0700AADD37 /* rangerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rangerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CCAFC22865BC0700AADD37 /* rangewatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rangewatcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CCAFC62865BC0700AADD37 /* rangerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rangerTests.swift; sourceTree = "<group>"; };
-		24CCAFCC2865BC0700AADD37 /* rangerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rangerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CCAFCC2865BC0700AADD37 /* rangewatcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rangewatcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CCAFD02865BC0700AADD37 /* rangerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rangerUITests.swift; sourceTree = "<group>"; };
 		24CCAFD22865BC0700AADD37 /* rangerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rangerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24CCB0642865F1F000AADD37 /* RangerExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangerExtensionDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,11 +140,11 @@
 		24CCAF9A2865BC0300AADD37 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				24CCAF992865BC0300AADD37 /* ranger.app */,
-				24CCAF9D2865BC0300AADD37 /* ranger WatchKit App.app */,
-				24CCAFA82865BC0600AADD37 /* ranger WatchKit Extension.appex */,
-				24CCAFC22865BC0700AADD37 /* rangerTests.xctest */,
-				24CCAFCC2865BC0700AADD37 /* rangerUITests.xctest */,
+				24CCAF992865BC0300AADD37 /* rangewatcher.app */,
+				24CCAF9D2865BC0300AADD37 /* rangewatcher WatchKit App.app */,
+				24CCAFA82865BC0600AADD37 /* rangewatcher WatchKit Extension.appex */,
+				24CCAFC22865BC0700AADD37 /* rangewatcherTests.xctest */,
+				24CCAFCC2865BC0700AADD37 /* rangewatcherUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,6 +169,7 @@
 				24CCAFBC2865BC0700AADD37 /* Info.plist */,
 				24CCAFBD2865BC0700AADD37 /* PushNotificationPayload.apns */,
 				24CCAFB92865BC0700AADD37 /* Preview Content */,
+				24CCB0642865F1F000AADD37 /* RangerExtensionDelegate.swift */,
 			);
 			path = "ranger WatchKit Extension";
 			sourceTree = "<group>";
@@ -199,9 +202,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		24CCAF982865BC0300AADD37 /* ranger */ = {
+		24CCAF982865BC0300AADD37 /* rangewatcher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24CCAFDE2865BC0700AADD37 /* Build configuration list for PBXNativeTarget "ranger" */;
+			buildConfigurationList = 24CCAFDE2865BC0700AADD37 /* Build configuration list for PBXNativeTarget "rangewatcher" */;
 			buildPhases = (
 				24CCAF972865BC0300AADD37 /* Resources */,
 				24CCAFDD2865BC0700AADD37 /* Embed Watch Content */,
@@ -211,14 +214,14 @@
 			dependencies = (
 				24CCAFA02865BC0300AADD37 /* PBXTargetDependency */,
 			);
-			name = ranger;
+			name = rangewatcher;
 			productName = ranger;
-			productReference = 24CCAF992865BC0300AADD37 /* ranger.app */;
+			productReference = 24CCAF992865BC0300AADD37 /* rangewatcher.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		24CCAF9C2865BC0300AADD37 /* ranger WatchKit App */ = {
+		24CCAF9C2865BC0300AADD37 /* rangewatcher WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24CCAFDA2865BC0700AADD37 /* Build configuration list for PBXNativeTarget "ranger WatchKit App" */;
+			buildConfigurationList = 24CCAFDA2865BC0700AADD37 /* Build configuration list for PBXNativeTarget "rangewatcher WatchKit App" */;
 			buildPhases = (
 				24CCAF9B2865BC0300AADD37 /* Resources */,
 				24CCAFD92865BC0700AADD37 /* Embed App Extensions */,
@@ -228,14 +231,14 @@
 			dependencies = (
 				24CCAFAB2865BC0600AADD37 /* PBXTargetDependency */,
 			);
-			name = "ranger WatchKit App";
+			name = "rangewatcher WatchKit App";
 			productName = "ranger WatchKit App";
-			productReference = 24CCAF9D2865BC0300AADD37 /* ranger WatchKit App.app */;
+			productReference = 24CCAF9D2865BC0300AADD37 /* rangewatcher WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		24CCAFA72865BC0600AADD37 /* ranger WatchKit Extension */ = {
+		24CCAFA72865BC0600AADD37 /* rangewatcher WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24CCAFD62865BC0700AADD37 /* Build configuration list for PBXNativeTarget "ranger WatchKit Extension" */;
+			buildConfigurationList = 24CCAFD62865BC0700AADD37 /* Build configuration list for PBXNativeTarget "rangewatcher WatchKit Extension" */;
 			buildPhases = (
 				24CCAFA42865BC0600AADD37 /* Sources */,
 				24CCAFA52865BC0600AADD37 /* Frameworks */,
@@ -245,14 +248,14 @@
 			);
 			dependencies = (
 			);
-			name = "ranger WatchKit Extension";
+			name = "rangewatcher WatchKit Extension";
 			productName = "ranger WatchKit Extension";
-			productReference = 24CCAFA82865BC0600AADD37 /* ranger WatchKit Extension.appex */;
+			productReference = 24CCAFA82865BC0600AADD37 /* rangewatcher WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
-		24CCAFC12865BC0700AADD37 /* rangerTests */ = {
+		24CCAFC12865BC0700AADD37 /* rangewatcherTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24CCAFE12865BC0700AADD37 /* Build configuration list for PBXNativeTarget "rangerTests" */;
+			buildConfigurationList = 24CCAFE12865BC0700AADD37 /* Build configuration list for PBXNativeTarget "rangewatcherTests" */;
 			buildPhases = (
 				24CCAFBE2865BC0700AADD37 /* Sources */,
 				24CCAFBF2865BC0700AADD37 /* Frameworks */,
@@ -263,14 +266,14 @@
 			dependencies = (
 				24CCAFC42865BC0700AADD37 /* PBXTargetDependency */,
 			);
-			name = rangerTests;
+			name = rangewatcherTests;
 			productName = rangerTests;
-			productReference = 24CCAFC22865BC0700AADD37 /* rangerTests.xctest */;
+			productReference = 24CCAFC22865BC0700AADD37 /* rangewatcherTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		24CCAFCB2865BC0700AADD37 /* rangerUITests */ = {
+		24CCAFCB2865BC0700AADD37 /* rangewatcherUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24CCAFE42865BC0700AADD37 /* Build configuration list for PBXNativeTarget "rangerUITests" */;
+			buildConfigurationList = 24CCAFE42865BC0700AADD37 /* Build configuration list for PBXNativeTarget "rangewatcherUITests" */;
 			buildPhases = (
 				24CCAFC82865BC0700AADD37 /* Sources */,
 				24CCAFC92865BC0700AADD37 /* Frameworks */,
@@ -281,9 +284,9 @@
 			dependencies = (
 				24CCAFCE2865BC0700AADD37 /* PBXTargetDependency */,
 			);
-			name = rangerUITests;
+			name = rangewatcherUITests;
 			productName = rangerUITests;
-			productReference = 24CCAFCC2865BC0700AADD37 /* rangerUITests.xctest */;
+			productReference = 24CCAFCC2865BC0700AADD37 /* rangewatcherUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -315,7 +318,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 24CCAF962865BC0300AADD37 /* Build configuration list for PBXProject "ranger" */;
+			buildConfigurationList = 24CCAF962865BC0300AADD37 /* Build configuration list for PBXProject "rangewatcher" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -328,11 +331,11 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				24CCAF982865BC0300AADD37 /* ranger */,
-				24CCAF9C2865BC0300AADD37 /* ranger WatchKit App */,
-				24CCAFA72865BC0600AADD37 /* ranger WatchKit Extension */,
-				24CCAFC12865BC0700AADD37 /* rangerTests */,
-				24CCAFCB2865BC0700AADD37 /* rangerUITests */,
+				24CCAF982865BC0300AADD37 /* rangewatcher */,
+				24CCAF9C2865BC0300AADD37 /* rangewatcher WatchKit App */,
+				24CCAFA72865BC0600AADD37 /* rangewatcher WatchKit Extension */,
+				24CCAFC12865BC0700AADD37 /* rangewatcherTests */,
+				24CCAFCB2865BC0700AADD37 /* rangewatcherUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -386,6 +389,7 @@
 				24CCAFB22865BC0600AADD37 /* NotificationController.swift in Sources */,
 				24CCAFB02865BC0600AADD37 /* ContentView.swift in Sources */,
 				24CCAFB62865BC0600AADD37 /* ComplicationController.swift in Sources */,
+				24CCB0652865F1F000AADD37 /* RangerExtensionDelegate.swift in Sources */,
 				24CCAFAE2865BC0600AADD37 /* rangerApp.swift in Sources */,
 				24CCAFB42865BC0600AADD37 /* NotificationView.swift in Sources */,
 			);
@@ -413,22 +417,22 @@
 /* Begin PBXTargetDependency section */
 		24CCAFA02865BC0300AADD37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 24CCAF9C2865BC0300AADD37 /* ranger WatchKit App */;
+			target = 24CCAF9C2865BC0300AADD37 /* rangewatcher WatchKit App */;
 			targetProxy = 24CCAF9F2865BC0300AADD37 /* PBXContainerItemProxy */;
 		};
 		24CCAFAB2865BC0600AADD37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 24CCAFA72865BC0600AADD37 /* ranger WatchKit Extension */;
+			target = 24CCAFA72865BC0600AADD37 /* rangewatcher WatchKit Extension */;
 			targetProxy = 24CCAFAA2865BC0600AADD37 /* PBXContainerItemProxy */;
 		};
 		24CCAFC42865BC0700AADD37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 24CCAFA72865BC0600AADD37 /* ranger WatchKit Extension */;
+			target = 24CCAFA72865BC0600AADD37 /* rangewatcher WatchKit Extension */;
 			targetProxy = 24CCAFC32865BC0700AADD37 /* PBXContainerItemProxy */;
 		};
 		24CCAFCE2865BC0700AADD37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 24CCAF9C2865BC0300AADD37 /* ranger WatchKit App */;
+			target = 24CCAF9C2865BC0300AADD37 /* rangewatcher WatchKit App */;
 			targetProxy = 24CCAFCD2865BC0700AADD37 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -484,12 +488,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 15.4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
 			};
 			name = Debug;
 		};
@@ -537,12 +544,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 15.4;
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
 			};
 			name = Release;
 		};
@@ -558,7 +568,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ranger WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "ranger WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = rangewatcher_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -567,7 +577,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ro.devchain.ranger.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.devchain.rangewatcher.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -590,7 +600,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ranger WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "ranger WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = rangewatcher_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -599,7 +609,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ro.devchain.ranger.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.devchain.rangewatcher.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -616,16 +626,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QG884YTN9F;
 				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = ranger_WatchKit_Extension;
+				IBSC_MODULE = rangewatcher_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "ranger WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ro.devchain.ranger.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.devchain.rangewatcher.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -641,16 +653,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QG884YTN9F;
 				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = ranger_WatchKit_Extension;
+				IBSC_MODULE = rangewatcher_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "ranger WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ro.devchain.ranger.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.devchain.rangewatcher.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -663,12 +677,14 @@
 		24CCAFDF2865BC0700AADD37 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QG884YTN9F;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ro.devchain.ranger;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.devchain.rangewatcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -676,12 +692,14 @@
 		24CCAFE02865BC0700AADD37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QG884YTN9F;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ro.devchain.ranger;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.devchain.rangewatcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -696,13 +714,13 @@
 				DEVELOPMENT_TEAM = QG884YTN9F;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ro.devchain.rangerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.devchain.rangewatcherTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ranger WatchKit Extension.appex/ranger WatchKit Extension";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rangewatcher WatchKit Extension.appex/rangewatcher WatchKit Extension";
 				WATCHOS_DEPLOYMENT_TARGET = 8.5;
 			};
 			name = Debug;
@@ -717,13 +735,13 @@
 				DEVELOPMENT_TEAM = QG884YTN9F;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ro.devchain.rangerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.devchain.rangewatcherTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ranger WatchKit Extension.appex/ranger WatchKit Extension";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rangewatcher WatchKit Extension.appex/rangewatcher WatchKit Extension";
 				WATCHOS_DEPLOYMENT_TARGET = 8.5;
 			};
 			name = Release;
@@ -736,7 +754,7 @@
 				DEVELOPMENT_TEAM = QG884YTN9F;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ro.devchain.rangerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.devchain.rangewatcherUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -755,7 +773,7 @@
 				DEVELOPMENT_TEAM = QG884YTN9F;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ro.devchain.rangerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.devchain.rangewatcherUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -769,7 +787,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		24CCAF962865BC0300AADD37 /* Build configuration list for PBXProject "ranger" */ = {
+		24CCAF962865BC0300AADD37 /* Build configuration list for PBXProject "rangewatcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24CCAFD42865BC0700AADD37 /* Debug */,
@@ -778,7 +796,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24CCAFD62865BC0700AADD37 /* Build configuration list for PBXNativeTarget "ranger WatchKit Extension" */ = {
+		24CCAFD62865BC0700AADD37 /* Build configuration list for PBXNativeTarget "rangewatcher WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24CCAFD72865BC0700AADD37 /* Debug */,
@@ -787,7 +805,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24CCAFDA2865BC0700AADD37 /* Build configuration list for PBXNativeTarget "ranger WatchKit App" */ = {
+		24CCAFDA2865BC0700AADD37 /* Build configuration list for PBXNativeTarget "rangewatcher WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24CCAFDB2865BC0700AADD37 /* Debug */,
@@ -796,7 +814,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24CCAFDE2865BC0700AADD37 /* Build configuration list for PBXNativeTarget "ranger" */ = {
+		24CCAFDE2865BC0700AADD37 /* Build configuration list for PBXNativeTarget "rangewatcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24CCAFDF2865BC0700AADD37 /* Debug */,
@@ -805,7 +823,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24CCAFE12865BC0700AADD37 /* Build configuration list for PBXNativeTarget "rangerTests" */ = {
+		24CCAFE12865BC0700AADD37 /* Build configuration list for PBXNativeTarget "rangewatcherTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24CCAFE22865BC0700AADD37 /* Debug */,
@@ -814,7 +832,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24CCAFE42865BC0700AADD37 /* Build configuration list for PBXNativeTarget "rangerUITests" */ = {
+		24CCAFE42865BC0700AADD37 /* Build configuration list for PBXNativeTarget "rangewatcherUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24CCAFE52865BC0700AADD37 /* Debug */,

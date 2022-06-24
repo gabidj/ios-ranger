@@ -7,10 +7,21 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        let delegate =  RangerExtensionDelegate()
+        let phoneReachable = delegate.isPhoneReachable()
+        
+        
+        
+        if (phoneReachable) {
+            Text("Reachable!")
+                .padding()
+        } else {
+            Text("Unreachable!")
+                .padding()
+        }
     }
 }
 
@@ -19,3 +30,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+

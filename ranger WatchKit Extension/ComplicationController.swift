@@ -6,6 +6,7 @@
 //
 
 import ClockKit
+import WatchConnectivity
 
 
 class ComplicationController: NSObject, CLKComplicationDataSource {
